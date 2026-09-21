@@ -59,7 +59,7 @@ The chatbot is designed to provide general legal information and identify cases 
                           | legal professionals |
                           +----------------------+
 
-3. Presentation Layer
+**3. Presentation Layer**
 
 The presentation layer will be developed using Java.
 
@@ -74,7 +74,7 @@ Error and system messages
 
 The frontend will communicate with the Python backend through API requests.
 
-4. Application and AI Layer
+**4. Application and AI Layer**
 
 The application and AI layer will be developed using Python.
 
@@ -105,8 +105,8 @@ Response Logic
 
 Determines whether the system can provide general information or whether the case should be escalated to a qualified legal professional.
 
-
-5. Legal Knowledge Base
+**
+5. Legal Knowledge Base**
 
 The system will contain a structured legal knowledge base covering the selected legal areas.
 
@@ -119,7 +119,7 @@ The knowledge base will initially support English-language interactions.
 
 The information will be structured so that the AI component can identify relevant legal information when responding to user questions.
 
-6. Database Layer
+**6. Database Layer**
 
 The database layer will use MySQL.
 
@@ -135,7 +135,7 @@ Other application data
 
 Database access will be handled through the Python backend rather than directly from the frontend.
 
-7. Case Escalation Layer
+**7. Case Escalation Layer**
 
 The chatbot is not intended to replace qualified legal professionals.
 
