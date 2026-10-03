@@ -184,7 +184,7 @@ General Information   Case Escalation
 9. Technology Stack
 | Component               | Technology |
 | ----------------------- | ---------- |
-| Frontend                | Java       |
+| Frontend                | Java FX    |
 | Backend                 | Python     |
 | AI/NLP                  | Python     |
 | Database                | MySQL      |
