@@ -1,0 +1,219 @@
+/* Kituo Cha Sheria - AI Legal Aid Chatbot
+   Brand colors: Thunderbird #C5401D (accent), Shark #1D2124 (dark), Silver #CCCCCC */
+
+.root {
+    -fx-font-family: "Georgia";
+    -fx-background-color: #F7F6F4;
+}
+
+/* ---------- Sidebar ---------- */
+.sidebar {
+    -fx-background-color: #1D2124;
+    -fx-padding: 28 0 28 0;
+    -fx-min-width: 220;
+    -fx-pref-width: 220;
+}
+.sidebar-title {
+    -fx-text-fill: white;
+    -fx-font-size: 17px;
+    -fx-font-weight: bold;
+    -fx-padding: 0 24 24 24;
+}
+.sidebar-subtitle {
+    -fx-text-fill: #C5401D;
+    -fx-font-size: 13px;
+    -fx-font-weight: normal;
+}
+.nav-link {
+    -fx-text-fill: #CCCCCC;
+    -fx-font-size: 15px;
+    -fx-padding: 12 24 12 21;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-border-width: 0 0 0 3;
+    -fx-alignment: center-left;
+    -fx-max-width: Infinity;
+    -fx-cursor: hand;
+}
+.nav-link:hover {
+    -fx-text-fill: white;
+}
+.nav-link-active {
+    -fx-text-fill: white;
+    -fx-border-color: #C5401D;
+    -fx-border-width: 0 0 0 3;
+    -fx-background-color: #262A2D;
+}
+
+/* ---------- Top bar ---------- */
+.topbar {
+    -fx-background-color: white;
+    -fx-border-color: #E3E1DE;
+    -fx-border-width: 0 0 1 0;
+    -fx-padding: 0 32 0 32;
+    -fx-min-height: 64;
+    -fx-pref-height: 64;
+}
+.page-title {
+    -fx-font-size: 18px;
+    -fx-text-fill: #1D2124;
+}
+.user-label {
+    -fx-text-fill: #6B6F72;
+    -fx-font-size: 14px;
+}
+
+/* ---------- Cards ---------- */
+.card {
+    -fx-background-color: white;
+    -fx-border-color: #E3E1DE;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 20;
+}
+.card-label {
+    -fx-text-fill: #6B6F72;
+    -fx-font-size: 13px;
+}
+.card-value {
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1D2124;
+}
+.card-value-accent {
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #C5401D;
+}
+.card-heading {
+    -fx-font-size: 15px;
+    -fx-text-fill: #1D2124;
+    -fx-font-weight: bold;
+}
+
+/* ---------- Badges ---------- */
+.badge {
+    -fx-padding: 3 10 3 10;
+    -fx-background-radius: 12;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+.badge-resolved   { -fx-background-color: #E8F5E9; -fx-text-fill: #2E7D32; }
+.badge-escalated  { -fx-background-color: #FDECEA; -fx-text-fill: #C5401D; }
+.badge-pending    { -fx-background-color: #FFF8E1; -fx-text-fill: #B8860B; }
+
+/* ---------- Buttons ---------- */
+.btn-primary {
+    -fx-background-color: #C5401D;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-padding: 12 24 12 24;
+    -fx-cursor: hand;
+}
+.btn-primary:hover {
+    -fx-background-color: #A8350F;
+}
+.btn-secondary {
+    -fx-background-color: white;
+    -fx-text-fill: #1D2124;
+    -fx-border-color: #E3E1DE;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-font-size: 12px;
+    -fx-padding: 4 10 4 10;
+    -fx-cursor: hand;
+}
+.link {
+    -fx-text-fill: #C5401D;
+    -fx-cursor: hand;
+    -fx-underline: false;
+}
+
+/* ---------- Chat ---------- */
+.bubble-ai {
+    -fx-background-color: white;
+    -fx-border-color: #E3E1DE;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-padding: 12 16 12 16;
+}
+.bubble-user {
+    -fx-background-color: #C5401D;
+    -fx-background-radius: 10;
+    -fx-padding: 12 16 12 16;
+}
+.bubble-user-text {
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+.bubble-ai-text {
+    -fx-text-fill: #1D2124;
+    -fx-font-size: 14px;
+}
+.disclaimer {
+    -fx-text-fill: #6B6F72;
+    -fx-font-size: 11px;
+}
+.chat-input {
+    -fx-background-color: white;
+    -fx-border-color: #E3E1DE;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-padding: 10;
+    -fx-font-size: 14px;
+}
+
+/* ---------- Login ---------- */
+.login-card {
+    -fx-background-color: white;
+    -fx-background-radius: 12;
+    -fx-padding: 40;
+}
+.login-field {
+    -fx-background-color: white;
+    -fx-border-color: #D8D6D3;
+    -fx-border-radius: 7;
+    -fx-background-radius: 7;
+    -fx-padding: 11 12 11 12;
+    -fx-font-size: 14px;
+}
+.field-label {
+    -fx-text-fill: #1D2124;
+    -fx-font-size: 13px;
+}
+.tab-active {
+    -fx-text-fill: #1D2124;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-border-color: #C5401D;
+    -fx-border-width: 0 0 2 0;
+    -fx-padding: 0 0 10 0;
+}
+.tab-inactive {
+    -fx-text-fill: #6B6F72;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+    -fx-padding: 0 0 10 0;
+}
+
+/* ---------- Table ---------- */
+.data-table {
+    -fx-background-color: transparent;
+}
+.data-table .column-header-background {
+    -fx-background-color: transparent;
+}
+.data-table .column-header .label {
+    -fx-text-fill: #6B6F72;
+    -fx-font-size: 12px;
+}
+.data-table .table-row-cell {
+    -fx-background-color: white;
+    -fx-border-color: transparent transparent #F0EFED transparent;
+}
+.data-table .table-cell {
+    -fx-text-fill: #1D2124;
+    -fx-font-size: 14px;
+}
